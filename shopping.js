@@ -26,7 +26,7 @@ const displayProduct = name => {
     ul.appendChild(li);
 };
 
-const  = () => {
+const getCart = () => {
     const cart = localStorage.getItem("cart");
     let cartObj;
     if (cart) {
